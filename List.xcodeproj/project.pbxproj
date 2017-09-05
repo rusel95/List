@@ -13,6 +13,7 @@
 		84A5A3041F5EDBE600218AA6 /* List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A3021F5EDBE600218AA6 /* List.xcdatamodeld */; };
 		84A5A3061F5EDBE600218AA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A5A3051F5EDBE600218AA6 /* Assets.xcassets */; };
 		84A5A3091F5EDBE600218AA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A5A3071F5EDBE600218AA6 /* LaunchScreen.storyboard */; };
+		84A5A3111F5EE53C00218AA6 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A5A3101F5EE53C00218AA6 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		84A5A3051F5EDBE600218AA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A5A3081F5EDBE600218AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A5A30A1F5EDBE600218AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A5A3101F5EE53C00218AA6 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				84A5A2FB1F5EDBE600218AA6 /* AppDelegate.swift */,
 				84A5A2FD1F5EDBE600218AA6 /* ViewController.swift */,
+				84A5A3101F5EE53C00218AA6 /* CoreDataStack.swift */,
 				84A5A2FF1F5EDBE600218AA6 /* Main.storyboard */,
 				84A5A3051F5EDBE600218AA6 /* Assets.xcassets */,
 				84A5A3071F5EDBE600218AA6 /* LaunchScreen.storyboard */,
@@ -99,7 +102,7 @@
 				TargetAttributes = {
 					84A5A2F71F5EDBE600218AA6 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = FWHF624C4H;
+						DevelopmentTeam = XL2PB29T62;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -143,6 +146,7 @@
 				84A5A2FE1F5EDBE600218AA6 /* ViewController.swift in Sources */,
 				84A5A2FC1F5EDBE600218AA6 /* AppDelegate.swift in Sources */,
 				84A5A3041F5EDBE600218AA6 /* List.xcdatamodeld in Sources */,
+				84A5A3111F5EE53C00218AA6 /* CoreDataStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +269,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FWHF624C4H;
+				DEVELOPMENT_TEAM = XL2PB29T62;
 				INFOPLIST_FILE = List/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rusel95.List;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,8 +283,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = FWHF624C4H;
+				DEVELOPMENT_TEAM = XL2PB29T62;
 				INFOPLIST_FILE = List/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rusel95.List;
 				PRODUCT_NAME = "$(TARGET_NAME)";
